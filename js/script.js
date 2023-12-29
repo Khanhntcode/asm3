@@ -50,6 +50,6 @@ function handleViewMore(element) {
     viewMore.innerHTML = "View less";
   } else {
     sectionContent.classList.add("hidden");
-    viewLess.innerHTML = "View more";
+    viewMore.innerHTML = "View more";
   }
 }
